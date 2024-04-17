@@ -1,8 +1,6 @@
 # imports
 # biblioteca para interagir o SO
 import os
-# biblioteca para pegar data e hora do sistema
-import datetime
 
 
 # limpar o terminal
@@ -24,4 +22,4 @@ print(f'{escolaridade}', type(escolaridade))
 print(f'{colegio}', type(colegio))
 print(f'{cidade}', type(cidade))
 
-print('_'70)
+print('_'*70)
