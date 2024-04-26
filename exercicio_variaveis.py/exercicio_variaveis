@@ -11,10 +11,10 @@ print('ENTRADA DE DADOS EM PYTHON')
 print('='*70)
 
 # ENTRADA com CASTING
-nome = str (input('digite seu nome:'))
-escolaridade = str (input('digite sua escolaridade'))
-colegio =  str (input('digite seu colégio'))
-cidade = str (input('digite su cidade'))
+nome = str (input('digite seu nome: '))
+escolaridade = str (input('digite sua escolaridade: '))
+colegio =  str (input('digite seu colégio: '))
+cidade = str (input('digite su cidade: '))
 
 # Saida Interopolada
 print(f'seja bem vindo {nome}', type (nome))

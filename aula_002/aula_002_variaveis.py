@@ -14,7 +14,7 @@ nome = 'John Doe'
 nascimento = 1970
 altura = 1.80
 peso = 75.5
-doador = true
+doador = ('true')
 complexo = 3j # Python trabalha diretamente com numeros complexos
 PI = 3.14 # isso é uma CONSTANTE, seu valor não deve ser alterado
 
