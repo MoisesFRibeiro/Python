@@ -6,7 +6,7 @@
 # curso de desenvolvimento de sistemas 
 # turma 0152
 # autor: moises de souza ribiero
-# data 26/04/2024
+# data 29/04/2024
 # atividade de condicionais: F
 
 # importando a biblioteca 
@@ -14,11 +14,20 @@ import os
 
 
 # limpando a biblioteca
-os.sytem("cls")
+os.system("cls")
 
 print('_'*70)
 print('atividade: f')
 print('='*70)
 
 # entrada
-ano = input('entre com seu ano ')
+ano = int(input('entre com o ano '))
+if ano % 100 !=0 and ano % 4 == 0:
+    print(f'(ano) é bisexto')
+    
+else: 
+    print(f'(ano) não é bisexto')
+    
+print('_'*70)
+ 
+     
