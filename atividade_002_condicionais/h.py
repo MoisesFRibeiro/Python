@@ -37,5 +37,4 @@ if delta >= 0:
 else:
     print('não ha raizes para equação')
     
-print('='*70
-      )        
+print('='*70)        
