@@ -25,7 +25,7 @@ if salario >= 1500:
     salario_atual = salario + salario1500
     print(f' seu novo salariio é {salario_atual} ')
     
-elif ( salario > 0 and salario < 1499)
+elif (salario > 0 and salario < 1499)
     salario1000 = salario * (10/100)
     salario_atual2 = salario + salario1000 
     print(f'seu novo salario é {salario_atual2}')

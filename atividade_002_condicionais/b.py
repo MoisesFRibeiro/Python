@@ -25,7 +25,7 @@ c = float(input('digite o terceiro numero'))
 if a > b > c:
     print('_'*70)
     print(f'{a} é maior que {b} ou maior que {c} ')
-    Print('='*70)
+    print('='*70)
 elif b > a > c:
     print(f'{b} é maior que {a} é maior que {c}')
     
