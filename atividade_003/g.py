@@ -8,3 +8,9 @@ import math
 
 os.system('cls')
 
+print('-'*70)
+print('raiz quadrada')
+print('-'*70)
+
+a = (input(entre com numero))
+b = (input(entre com ))
