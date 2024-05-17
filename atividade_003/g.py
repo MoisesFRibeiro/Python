@@ -2,7 +2,6 @@
 # Calcule as raízes da equação do 2º grau seguindo a fórmula: Δ = b² - 4ac, x = (-b ± raiz(Δ)) / (2a).
 
 import os 
-import random
 import math
 
 
@@ -12,5 +11,22 @@ print('-'*70)
 print('raiz quadrada')
 print('-'*70)
 
-a = (input(entre com numero))
-b = (input(entre com ))
+# entrada
+a =int(input('entre com a '))
+b =int(input('entre com b '))
+c =int(input('entre com c '))
+
+# processamento
+
+# Δ = b² - 4ac,
+# x = (-b ± raiz(Δ)) / (2a).
+b2 = math.pow(b, 2)
+delta = b2 - (4*a*c )
+raizdelta = math.sqrt (delta)
+x1 = (-b + raizdelta ) / (2* a )
+x2 = (-b - raizdelta ) / (2* a )
+
+# saida 
+print(f' a raiz quadrada de  é: {raizdelta}')
+print(f'o resultado de x1 é : {x1 }')
+print(f'o rwsultado de x2 é : {x2 }')
