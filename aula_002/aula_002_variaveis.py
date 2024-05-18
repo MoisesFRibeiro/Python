@@ -1,8 +1,8 @@
-#importando a biblioteca do sistema
+# importando a biblioteca do sistema
 import os
 
 
-#limpando o teminal
+# limpando o teminal
 os.system('cls')
 
 print('_'*70) # firula
