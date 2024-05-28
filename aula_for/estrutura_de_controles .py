@@ -24,7 +24,7 @@ passo = 2
 
 for var_iteradora in range(inicio,fim,passo):
     # end= coloca os numeros em uma mesma linha
-    print(f'valor: {var_iteradora}' end= " | ")
+    print(f'valor: {var_iteradora}',end= " | ")
 
 print()
 print()

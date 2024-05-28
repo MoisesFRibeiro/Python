@@ -14,23 +14,23 @@ import os
 os.system('cls')
 
 # entrada
-nome = input('digite o nome do aluno: ')
+nome_aluno = input('digite o nome do aluno: ')
 letra = 'o'
-contador = 0
+contador = 'o'
 primeira_posicao = -1
 ultima_posicao = -1
 
 # processamento
-for i in range(len(nome)):
-    if nome[i] == letra:
+for i in range(len(nome_aluno)):
+    if nome_aluno [i] == 'o' or nome_aluno[i] == 'o':
         contador += 1
     if primeira_posicao == -1:    
         primeira_posicao = i
-else: ultima_posicao = i
+    ultima_posicao = i
 
 # saida
-print(f'quantidade de vezes que a letra'o' aparece': {contador})
+print(f"quantidade de vezesque a letra 'o' aparece: {contador}")
 print(f'posicao da primeira ocorrencia: {primeira_posicao}')
 print(f'posicao da ultima ocorrencia: {ultima_posicao}')
 print('='*80)
-        
+print()
