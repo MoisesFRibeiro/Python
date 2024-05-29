@@ -23,4 +23,5 @@ while contador < 7:
 else:
     print("while finalizado!")
 
+print('-'*70)
 print()
