@@ -5,11 +5,17 @@
 # Exiba todas as notas na ordem inversa à que foram informadas, uma abaixo da outra.
 # Calcule e mostre a soma das notas.
 # Calcule e mostre a média das notas.
+
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 19/06/2024
+# listas
+
 import os
 
 
 os.system('cls')
-
 soma = 0
 contador = 1
 notas = []
@@ -35,3 +41,9 @@ print(f' indice: {soma} = notas {notas}')
 
 media = soma * notas
 print(f'media: {media}')
+
+notas = []
+for i in range(0,5):
+    valor = int(input('digite a nota: '))
+    if (valor < 0):
+        print('fim')
