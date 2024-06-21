@@ -15,6 +15,6 @@ Nome = str(input('entre com o seu Nome: '))
 
 
 Cpf = int(input(' entre com o seu Cpf:  '))
-Endereço = int(input('Rua: ,Numero: ,complemento: ,Bairro: ,Cidade: ,uf: ,Cep: '))
-Telefone = int()     
-whatsapp = ( )
+Endereço = int(input('Entre com o seu Endereço:'))
+Telefone = int(input('Entre com seu Telefone:' ))     
+whatsapp = int(input('Entre com seu Whatsapp:' ))
