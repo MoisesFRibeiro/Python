@@ -30,4 +30,13 @@ while True:
         if meu_dicionário is not None:
             chaves = input("digite a chave que deseja buscar: ")
             valor = meu_dicionário.get(chaves, "Chave não encontrada")
-            print(f'valor para a chave '{chave}' : '{valor}')    
+            print(f"valor para a chave '{chaves}' : '{valor}'")
+        else:
+            print("erro! crie um dicionário.")
+    elif opção == '3':
+        print("saindo do programa.")
+        break
+
+    else:
+        print("opção invalida. tente novamente.")
+

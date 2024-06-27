@@ -20,6 +20,7 @@ excluir = []
 
 while True:
 
+# escolhendo qual material deseja excluir
     excluir = input('selecione qual material deseja excluir( ou digite "s" para sair): ')
 
     if excluir.lower():
