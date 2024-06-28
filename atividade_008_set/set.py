@@ -16,18 +16,25 @@ print('='*70)
 
 # declarando lista de materiais
 materiais_escolar = ["caneta", "lapis", "papel", "borracha"]
+materiais_escolar_2 = ["livros", "pincel", "tinta", "caderno"]
 excluir = []
 
 while True:
 
 # escolhendo qual material deseja excluir
-    excluir = input('selecione qual material deseja excluir( ou digite "s" para sair): ')
+    excluir = input('selecione qual material deseja excluir: ')
 
     if excluir.lower():
      materiais_escolar.remove('')
 
-    elif (excluir != s):
+    elif (excluir != materiais_escolar):
        print('continue digitando......')
-    
-        
+
+# escolhendo qual material deseja excluir na lista 2
+    elif excluir.lower():
+        materiais_escolar_2.remove('')
+
+   else:
+              
     print(f'a lista de materiais final foi:{materiais_escolar} ')
+
