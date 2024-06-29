@@ -77,11 +77,25 @@ while True:
     elif opção == '4':
       # remover um elemento                              
       simbolo = str(
-          input('digite o simbolo do elemento que deseja remover: ')
-           encontrado = False # inicializa a flag como false
-           for elemento in periodica:
-                if elemento['simbolo'] == simbolo
-                periodica.remove(elemento)
-                # define a flag como true  quando o elemento é encontrado
-                
-                 )  
+          input('digite o simbolo do elemento que deseja remover: '))
+    encontrado = False # inicializa a flag como false
+    for elemento in periodica:
+        if elemento['simbolo'] == simbolo:
+            periodica.remove(elemento)
+            # define a flag como true  quando o elemento é encontrado
+            encontrado = True
+            break
+        if encontrado:
+            input("\nelemento removido. enter para continuar.....")
+        else:
+            input("\nelemento não encontrado. enter para continuar....")
+
+        elif opção == '5':
+        print("saindo do programa.")
+        break
+
+        else:
+        input("opção invalida. enter para tentar novamente....")
+    
+            
+                 
