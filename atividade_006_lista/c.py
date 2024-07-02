@@ -7,6 +7,12 @@
 # Lista reversa
 # O produto dos intervalos 5-6 por 11-12
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 19/06/2024
+# listas
+
 import os
 
 
