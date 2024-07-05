@@ -3,3 +3,9 @@
 #  Em seguida realize as seguintes ações:
 # - Listar chaves e valores com laço - Deletar o peso
 # - Listar novamente chaves e valores - mostrar o nome e altura
+
+import os
+
+
+os.system('cls')
+

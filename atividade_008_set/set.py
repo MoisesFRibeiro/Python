@@ -34,7 +34,7 @@ while True:
     elif excluir.lower():
         materiais_escolar_2.remove('')
 
-   else:
+    else:
               
-    print(f'a lista de materiais final foi:{materiais_escolar} ')
+        print(f'a lista de materiais final foi:{materiais_escolar} ')
 
