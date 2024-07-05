@@ -12,20 +12,28 @@ import os
 
 os.system('cls')
 
+print('-'*70)
+print('Dicionário de 4 elementos')
+print('='*70)
+
 # criando um dicionário 
-frutas = {}
+fruta = {}
 
 # atribuindo 4 elementos ao dicionário
-frutas[1] = 'maçã'
-frutas[2] = 'goiaba'
-frutas[3] = 'uva'
-frutas[4] = 'morango'
+fruta['fruta1'] = 'maçã'
+fruta['fruta2'] = 'goiaba'
+fruta['fruta3'] = 'uva'
+fruta['fruta4'] = 'morango'
 
 # imprimindo a lista completa
-print(f'lista completa de frutas é {frutas}')
+print(f'lista completa de frutas é {fruta}')
 
 # deletando o ultimo elemento
-if frutas == '4':
-    if meu_dicionário:
-         frutas.popitem()
-         print(f' ultimo item removido: {frutas}')
+del fruta ['fruta4']
+
+# mostrando a nova lista de frutas
+print(f'a nova lista é: {fruta}')
+
+print('-'*70)
+print('saindo do programa')
+print()
