@@ -9,3 +9,8 @@ import os
 
 os.system('cls')
 
+# criando um dicionário
+nomes = {}
+
+# adicionando dados
+nomes = {'nome:' 'jhon,' 'idade': '40,' 'peso:' 80, 'altura': 1.70}
