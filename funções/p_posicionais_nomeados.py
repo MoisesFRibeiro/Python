@@ -17,14 +17,14 @@ def posicional_nomeado(nascimento, nome ='coly',): # ok não funciona!!!
     print(f'o ano de nascimento da {nome} é {nascimento}.')
     print('-'*70)
 
-def nomeado_posicional(nome='coly', nascimento): # not ok! não funciona!!! 
+'''def nomeado_posicional(nome='coly', nascimento): # not ok! não funciona!!! 
     print(f'bem vindo (a) ao sistema senac, {nome}!')
     print(f'o ano de nascimento da {nome} é {nascimento}.')
     print('-'*70) 
-
+'''
     # chamando as funções
-    dados_paciente()
+dados_paciente()
 
-    dados_paciente(nome='isis', nascimento=1985, peso=46, altura=1.56)
-    dados_paciente(nascimento=2008, nome='Ágata', peso=46, altura=1.58)
-    dados_paciente(altura=1.66, peso=46, nome="Bia", nascimento=2008)  
+dados_paciente(nome='isis', nascimento=1985, peso=46, altura=1.56)
+dados_paciente(nascimento=2008, nome='Ágata', peso=46, altura=1.58)
+dados_paciente(altura=1.66, peso=46, nome="Bia", nascimento=2008)  
