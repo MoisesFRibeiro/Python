@@ -7,16 +7,17 @@ import os
 os.system('cls')
 
 aluno = []
-nome = []
+matricula = []
+data_nascimento = []
 
 # definindo a funçaõ cadastrar aluno
-def cadastrar_aluno(nome, matricula, Dt_nascimento):
+def cadastrar_aluno(aluno, matricula, Dt_nascimento):
 
-nome = str(input('entre com o nome do aluno: '))
+aluno = input()('entre com o nome do aluno')
 matricula = input('entre com a matricula do aluno: ')
-nascimento = input('entre com o nascimento do aluno: ')
+data_nascimento = input('entre com o nascimento do aluno: ')
 
 
-print(f'o nome do aluno cadastrado é: {nome}')
+print(f'o nome do aluno cadastrado é: {aluno}')
 print(f'a matricula do aluno é: {matricula}')
-print(f'o nascimento do aluno é: {nascimento}')
+print(f'o nascimento do aluno é: {data_nascimento}')
