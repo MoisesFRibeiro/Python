@@ -4,6 +4,12 @@
 # - Sua função deverá criar um dicionário contendo chave e valor utilizando como base essas duas listas.
 # Depois, seu programa deverá imprimir esse dicionário utilizando uma estrutura de repetição for.
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# estrutura em for
+
 import os
 
 

@@ -1,6 +1,12 @@
 # Crie uma função que cadastre o nome de um aluno(a), a matrícula e a data de nascimento.
 # Depois imprima os resultados cadastrados utilizando uma estrutura de repetição for.
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# cadastro de alunos
+
 import os 
 
 

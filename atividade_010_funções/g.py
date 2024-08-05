@@ -5,6 +5,12 @@
 # Em seguida, você criará funções que retornem os resultados das operações,
 # imprimindo os resultados na tela.
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# calculos
+
 import os 
 
 

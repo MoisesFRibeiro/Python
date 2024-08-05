@@ -1,5 +1,11 @@
 # Crie uma função que receba a altura e o peso de uma pessoa. Depois retorne o seu IMC.
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# retornando imc
+
 import os
 
 

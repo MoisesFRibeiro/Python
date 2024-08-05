@@ -1,5 +1,11 @@
 # Crie uma função que receba uma temperatura em fahrenheit e retorne o valor em graus célsius.
- 
+
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# convertendo graus
+
  import os 
 
 

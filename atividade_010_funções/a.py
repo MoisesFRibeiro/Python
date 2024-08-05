@@ -1,6 +1,12 @@
 # Crie uma função que receba uma lista de números. Depois retorne duas listas com os números pares,
 # os números ímpares, a quantidade de números pares e a quantidade de números ímpares.
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# lista de numeros
+
 import os 
 
 

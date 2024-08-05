@@ -2,6 +2,12 @@
 # Se estiver cadastrado, imprima o nome desse aluno e o resto dos seus dados. 
 # O dicionário deverá conter nome, matrícula e a data de nascimento do aluno.
 
+# curso de desenvolvimento de sistemas
+# Turma 0152 ( Braba)
+# Autor: Moises de Souza Ribeiro
+# Data 05/08/2024
+# verificando cadastro de aluno
+
 import os
 
 
