@@ -24,9 +24,22 @@ if vinho == vinhos:
         print(f'{vinhos.capitalize()}:{vinho}')
 
 vinhos[2] = input('digite aqui o nome do vinho: ')
-vinhos[3] = input('digite aqui o nome do vinho: ')
-vinhos[4] = input('digite aqui o nome do vinho: ')
-vinhos[5] = input('digite aqui o nome do vinho: ')
+if vinho == vinhos:
+    for vinhos in vinho.items():
+        print(f'{vinhos.capitalize()}: {vinho}')
 
-# classificando os vinhos
-print
+vinhos[3] = input('digite aqui o nome do vinho: ')
+if vinho == vinhos:
+    for vinhos in vinho.items():
+        print(f'{vinhos.capitalize()}: {vinho}')
+
+vinhos[4] = input('digite aqui o nome do vinho: ')
+if vinho == vinhos:
+    for vinhos in vinho.items():
+        print(f'{vinhos.capitalize()}: {vinho}')
+
+vinhos[5] = input('digite aqui o nome do vinho: ')
+if vinho == vinhos:
+    for vinhos in vinho.items():
+        print(f'{vinhos.capitalize()}: {vinho}')
+
