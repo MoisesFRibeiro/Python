@@ -5,6 +5,9 @@ import os
 
 os.system('cls')
 
+print('-'*70)
+print('-')
+
 # definindo função com retorno em celsius
 def retornar_temperatura(farenheit, celsius):
     f = float(input('entre com a temperatura em f: '))
