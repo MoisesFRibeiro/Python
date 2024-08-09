@@ -46,8 +46,8 @@ except IOError:
 
 # Attributerror
 class exemplo:
-    def_init_(self):
-    self.atributo = "valor"
+    def __init__(self):
+        self.atributo = "valor"
 
 objeto = exemplo()
 try:
@@ -57,7 +57,7 @@ except AttributeError:
 
 # importerror
 try:
-    import modulo_inexistente '# type: ignore'
+    import modulo_inexistente # type: ignore ignora o erro
 except ImportError:
     print('erro: modulo não encontrado!')
 
