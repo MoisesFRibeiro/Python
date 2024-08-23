@@ -3,7 +3,7 @@ import os
 
 
 class conta_bancaria:
-    def __init__(self, numero-conta, nome_titular, saldo, agencia, tipo_conta):
+    def __init__(self, numero_conta, nome_titular, saldo, agencia, tipo_conta):
         self.numero_conta = numero_conta
         self.nome_titular = nome_titular
         self.saldo = saldo
@@ -18,6 +18,7 @@ def obter_dados_conta():
     agencia = input('digite a agencia: ')
     tipo_conta = input('digite o tipo de conta: ')
     return conta_bancaria(numero_conta, nome_titular, saldo, agencia, tipo_conta)
+
 
 # lista para armazenar conta bancária:
 contas = [] 
@@ -47,4 +48,12 @@ arquivo = 'arquivo_csv/conta/conta.csv'
 
 # escrevera lista de dicionÁRIOS NO ARQUIVO CSV
 with open(arquivo, mode='w', newline='') as conta:
-    
+    fieldnames = ['numero da conta', 'nome_titular',
+                  'saldo', 'agencia', 'tipo_conta']
+    writer = csv.DictWriter(conta, fieldnames=fieldnames, delimiter=';')
+
+    writer.writeheader()
+    for registro in contas:
+        writer.writerow(registro)
+        
+print(f'as informações das contas foram salvas em {arquivo}')        

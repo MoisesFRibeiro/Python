@@ -2,11 +2,11 @@ import os
 
 
 class banco():
-    def __init__(self, nome'', agencia=0, conta=0, cpf=0,
-                    conta_corrrente=0, poupança=0):
+    def __init__(self, nome='', agencia=0, conta=0, cpf=0,
+                 conta_corrente=0, poupanca=0):
         self.nome = nome
         self.agencia = agencia
-        self.conta = Conta
+        self.conta = conta
         self.cpf = cpf
         self.conta_corrente = conta_corrente
         self.poupanca = poupanca
@@ -23,28 +23,28 @@ class banco():
         elif escolha == 'po':
             print(f'\nValor do deposio:(+)R${valor}') 
             print(f'\nSaldo anterior na poupança: R${self.poupanca}')
-            self.poupanca == valor 
+            self.poupanca += valor 
             print(f'tsaldo atual na poupanca : R${self.poupanca}')
             print('-'*70)
 
         else:
             print('opção invalida!')
 
-    def saque(self.valor):
+    def saque(self,valor):
         escolha = input(
             'conta corrente (cc) ou poupanca (po)? ').lower().strip()
 
         if escolha == 'cc':
             print(f'\nValor sacado; (-)R${valor}')            
             print(f'\saldo anterior na cc: R${self.conta_corrente}')
-            self.conta_corrente == Valor
+            self.conta_corrente == valor
             print(f't\saldo Atual na cc: R${self.conta_corrente}')
             print('-'*70)
 
         elif escolha == 'po':
             print(f'\nValor sacado: (-)R${valor}')
             print(f'\saldo anterior em poupanca: R${self.poupanca}')
-            self.poupanca -= Valor
+            self.poupanca += valor
             print(f'\tsaldo Atual na poupanca: R${self.poupanca}')
             print('-'*70)
 
