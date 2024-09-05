@@ -9,23 +9,24 @@ class Valor:
         self.valor_2 = valor_2
         self.valor_3 = valor_3 
 
-    # Método para classe somar
+    # Método para Classe Somar
     def somar(self, valor_1 , valor_2, valor_3):
         self.somar  valor_1 + valor_2 + valor_3
         return somar
 
-    # método para classe multiplicar
+    # Método para Classe Multiplicar
     def multiplicar(self, valor_1, valor_2, valor_3):
         self.multiplicar valor_1, valor_2, + valor_3
  
-# Entrada de dados
+# Entrada de Dados
 valor_1 = input('digite o valor 1: ')
 valor_2 = input('digie o valor 2: ')
 valor_3 = input('digite o valor 3: ')
 
-# invocando o método somar e multiplicar
+# Invocando o Método Somar e Multiplicar
 resultado_soma = somar(valor_1, valor_2, valor_3)
 resultado_multiplicar = multiplicar(valor_1, valor_2, valor_3)
 
+# Exibindo o Resultado
 print(f'calculo da soma: {resultado_soma}')
 print(f'calculo da multplicação {resultado_multiplicar}')

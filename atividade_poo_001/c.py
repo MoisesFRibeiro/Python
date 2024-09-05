@@ -14,6 +14,6 @@ nota_2 = input('digite a nota_2: ')
 nota_3 = input('digite a nota_3: ')
 nota_4 = input('digite a nota_4: ')
 
-media = nota_1 + nota_2 + nota_3 + nota_4 / 2
+media = nota_1 + nota_2 + nota_3 + nota_4 / 4
 
 print(f'a media da notas digitadas são: {media}')
