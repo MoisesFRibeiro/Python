@@ -16,6 +16,6 @@ tabuada_multiplicação = Tabuada(Valor)
 print("\n")
 # Método de contagem 
 for i in range(1,11):
-    print(f'{i} x {self.Valor} = {i * self.Valor}')
+    print(f'{} x {} = {}'.format(Valor, i, Valor*i))
     return
 

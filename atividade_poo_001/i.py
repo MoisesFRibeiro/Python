@@ -9,5 +9,15 @@ class Dolar:
         self.Reais = Reais
         self.Dolares = Dolares
 
-    def Valor_Reais(self):
-        Valor_reais = input('entre aqui com o valor: ')        
+    def Cotação_Dolar(self):
+             return self.Reais / self.Dolares
+    
+# Entrada de Dados
+Reais = float(input('entre com valor em Reais: R$'))
+Dolares = float(input('entre com valores em Dolares: U$$ '))
+
+# Instancia apartir da Classe Dolar
+conversão_dolar = Convercao(Reais, Dolar)
+converter = conversão_dolar.para_dolar()
+
+print(f'com R${Reais:2f} compramos{converter:.2f} dólares')
