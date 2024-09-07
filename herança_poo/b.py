@@ -19,4 +19,15 @@ while True:
     cateto_1 = float(input{'Entre com o cateto a: '})
     cateto_2 = float(input{'Entre com o cateto b: '})
     
-    if cateto_1 == 0 or cateto_2 == 0
+    if cateto_1 == 0 or cateto_2 == 0:
+        print('Fim do programa!')
+        break
+    else:
+        triangulo_retangulo = TrianguloRetangulo(cateto_1, cateto_2)
+        hipotenusa = triangulo_retangulo.calcular_hipotenusa()
+
+        os.system('cls')
+
+        print(f'O triangulo retangulo de lado 1 = {cateto_1} e')
+        print(f'de lado 2 = {cateto_2} é igual a {hipotenusa:.2f} aproximadente!')
+        input('Pressione Enter para retornar...')
