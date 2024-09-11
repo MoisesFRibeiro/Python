@@ -4,15 +4,31 @@ import os
 
 
 # Classe
-class Inversão:
-    def __init__(self, Inicial, Final, Ordem):
+class Inversão: # Classe pai
+    # Método construtor
+    def __init__(self, Inicial, Final,):
         self.Inicial = Inicial
         self.Final = Final
-        self.Ordem = Ordem
+        
+     # Método para realizar o intervalo na ordem inversa
+        for var in range(Inicial, Final):
+            # sobrecarregar  na classe filha
+            pass
 
-    # Entrada de dados
+    #  Classe filha
+class Ordem(Inversão):
+    # Herda todos os atributos da classe pai podendo ter outros atributos 
+    def  __init__(self, Inicial, Final, Ordem):
+         self.Inicial = Inicial
+         self.Final = Final
+
+         # Herança da classe pai
+         for var in range(Inicial, Final):
+            return print(f'ordem [::-1]')
+            
+
+    # Instanciando o objeto Inicial, Final
     Inicial = [1]
     Final = [10]
     
-    for var in range(Inicial, Final):
-        print(f'ordem [::-1]')
+    print(f'ordem [::-1]')
