@@ -41,4 +41,4 @@ class Intervalo(Pares):
             pares = Pares(Intervalo)
 
 # Saida
-print(f'{Intervalo}')
+print(Pares)
