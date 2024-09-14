@@ -29,7 +29,3 @@ class Legiao(Banda):
 
     # criando instancia banda e tocar
         Sera = Legiao
-
-    # usando polimorfismo
-        Show_Legiao(Tocar)
-print()
